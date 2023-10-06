@@ -9,11 +9,12 @@ const Character =  async () => {
     const view = `
         <div class="Characters-inner">
             <article class="Character-card">
-             
-                <h2>${character.symbol}</h2>
+                <img src="https://c1.coinlore.com/img/${character.nameid}.png" />
+                
             </article>
 
             <article class="Characters-card">
+                <h2>${character.symbol}</h2>
                 <h3>Nombre:<span>${character.name}</span></ </h3>
                 <h3>Nombre ID: <span>${character.nameid}</span></</h3>
                 <h3>Rango: <span>${character.rank}</span></</h3>
